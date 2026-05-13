@@ -6,6 +6,12 @@ from modules.xml_generator import generate_dita_xml
 from modules.insights import generate_insights
 from utils.helpers import clean_text, estimate_read_time, word_frequency, count_paragraphs
 
+def load_css(file_path: str):
+    with open(file_path) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+load_css("assets/style.css")
+
 st.set_page_config(
     page_title="SmartScribe Analytics Engine",
     page_icon="docs",

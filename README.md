@@ -143,20 +143,6 @@ git push origin feat/your-feature-name
 
 ---
 
-# Commit Message Convention
-
-| Prefix | Purpose |
-|--------|---------|
-| feat: | New feature |
-| fix: | Bug fix |
-| docs: | Documentation changes |
-| refactor: | Code restructuring |
-| style: | Formatting or UI updates |
-| test: | Test-related changes |
-| chore: | Maintenance or configuration updates |
-
----
-
 # Environment Variables
 
 | Variable | Description |
